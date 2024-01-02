@@ -12,7 +12,7 @@ let displayLast = document.getElementById("happynewyear");
 //Now we have the two data we needed, and we can count the odds between the two date
 function countDown(){
     //First we need to have the punctual time of New Year"s day
-    const newYearDate = new Date("2024 Januar 1, 00:00:00");
+    const newYearDate = new Date("2025 Januar 1, 00:00:00");
     const newYearTime = newYearDate.getTime();
     //Then we need the current time
     const currentTime = new Date().getTime();
